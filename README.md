@@ -129,7 +129,7 @@ I decided to use `aria-describedby` because the text is visible, the `h2` is vis
 
 ## Links
 
-- Solution URL:
+- Solution URL: https://www.frontendmentor.io/solutions/with-or-without-javascript-fully-responsive-faq-accordion-wahKyH4wdt
 - Live Site URL: https://officialfaq.netlify.app/
 
 ## Built with
