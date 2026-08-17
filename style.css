@@ -226,3 +226,7 @@ h2 {
   border-block-start: 1px solid var(--purple-100);
   padding-block-start: 1.5rem;
 }
+
+.attribution {
+  color: var(--purple-950);
+}
