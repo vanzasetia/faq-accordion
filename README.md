@@ -41,6 +41,7 @@ To sum up, a custom accordion is as simple as having the following markup:
 <button
   type="button"
   aria-expanded="true"
+  aria-label="open section"
   aria-describedby="what-is-frontend-mentor"
 ></button>
 ```
