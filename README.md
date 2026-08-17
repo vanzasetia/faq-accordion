@@ -135,9 +135,8 @@ I decided to use `aria-describedby` because the text is visible, the `h2` is vis
 
 ## Built with
 
-Accessibility in mind
-Progressive enhancement
-
+- Accessibility in mind
+- Progressive enhancement
 - Semantic HTML5 markup
 - CSS custom properties
 - Modern JavaScript
