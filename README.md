@@ -22,7 +22,7 @@ Most people, especially beginners, only see this challenge as something simple a
 
 ### Rejecting the use of the native HTML elements
 
-HTML offers us two semantic elements to make an accordion: `<summary>` and `<details>`. However, I did not use those elements here because, while they are native HTML elements, they [are not supported by Safari browsers](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/summary#browser_compatibility) and are not easy to customize. More importantly, this challenge is provided to test my JavaScript skills. I would waste this opportunity if I used those elements.
+HTML offers us two semantic elements to make an accordion: `<summary>` and `<details>`. However, I did not use those elements here because, while they are native HTML elements, they are not easy to customize. More importantly, this challenge is provided to test my JavaScript skills. I would waste this opportunity if I used those elements.
 
 Without those elements, I had the freedom to set the markup however I wish. But too much freedom can cause too many issues because building a mess-up accordion is easy. The `div` element can be used. Any elements can be used. To develop an accessible accordion, I needed to know what users expected to, and [I already knew about it](#the-challenge).
 
