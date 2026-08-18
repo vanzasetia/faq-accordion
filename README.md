@@ -128,6 +128,12 @@ Most beginners may use `aria-label` because that is what most mentors will sugge
 
 I decided to use `aria-describedby` because the text is visible, the `h2` is visible, all users get the same description, and visible content gets translated. Win-win solution!
 
+### Getting better results from the community
+
+[Abdelrhman Abdelaal](https://www.frontendmentor.io/solutions/with-or-without-javascript-fully-responsive-faq-accordion-wahKyH4wdt#comment-6a830fdc40d87e7b3663ffc0), a good front-end web developer, gave some amazing feedback. One of them is to use CSS only to control the colors of the icons.
+
+Before, as he mentioned, I was declaring colors in three different places: `<g>`, `script.js`, and `style.css`. Simply, the colors existed in all files. This was a bad practice. Now all colors are inside the CSS only. No color code in JavaScript or in HTML. But his suggestion was to select the `svg` element. I prefer selecting the `button` itself by making the `svg` inherit the color of the button with `fill: currentColor`. Practically, his suggestion and my way of doing it are just different. You choose your way.
+
 ## Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/with-or-without-javascript-fully-responsive-faq-accordion-wahKyH4wdt
