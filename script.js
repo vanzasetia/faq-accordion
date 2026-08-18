@@ -68,6 +68,7 @@
     firstAnswer.hidden = false;
 
     accordionButtons.forEach((button) => (button.hidden = false));
+    d.documentElement.classList.add("js");
   });
 
   accordionButtons.forEach((button) =>

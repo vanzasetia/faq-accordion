@@ -206,11 +206,11 @@ svg {
   margin-block-start: 0;
 }
 
-.faq h2 {
+.js .faq h2 {
   cursor: pointer;
 }
 
-.faq h2:hover {
+.js .faq h2:hover {
   color: var(--purple-500);
 }
 
