@@ -116,9 +116,7 @@ This way, you do not copy-paste SVG elements many times. To use it, you need to 
   aria-hidden="true"
   focusable="false"
 >
-  <g fill="#301534">
-    <use href="#minus"></use>
-  </g>
+  <use href="#minus"></use>
 </svg>
 ```
 
@@ -127,6 +125,10 @@ This way, you do not copy-paste SVG elements many times. To use it, you need to 
 Most beginners may use `aria-label` because that is what most mentors will suggest. But `aria-label` is not a visible label. It is programmatically visible to assistive technologies. But users who do not use assistive technologies—probably you—must have similar access to the label. In this case, the visible label for each accordion is the question. Plus, [`aria-label` does not always get translated](https://adrianroselli.com/2019/11/aria-label-does-not-translate.html).
 
 I decided to use `aria-describedby` because the text is visible, the `h2` is visible, all users get the same description, and visible content gets translated. Win-win solution!
+
+However, you might think that I am contradicting myself here because I still used the `aria-label`. That is not true. Even if the `aria-label` does not get translated, the questions still get translated. The questions are the important information for the users. Users are not idiots who will freak out if they do not understand "open section." We need to respect the user's intelligence while making our interface as easy to use as possible.
+
+Plus, trying to accommodate all users with different disabilities and different environments is not and _will not_ be possible. Thus, arguing for a better solution does _not_ mean getting perfect. It means finding the best solution within our limitations.
 
 ### Getting better results from the community
 
