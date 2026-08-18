@@ -228,5 +228,6 @@ h2 {
 }
 
 .attribution {
+  text-align: center;
   color: var(--purple-950);
 }
