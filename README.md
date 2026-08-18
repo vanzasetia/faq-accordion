@@ -136,6 +136,8 @@ Plus, trying to accommodate all users with different disabilities and different 
 
 Before, as he mentioned, I was declaring colors in three different places: `<g>`, `script.js`, and `style.css`. Simply, the colors existed in all files. This was a bad practice. Now all colors are inside the CSS only. No color code in JavaScript or in HTML. But his suggestion was to select the `svg` element. I prefer selecting the `button` itself by making the `svg` inherit the color of the button with `fill: currentColor`. Practically, his suggestion and my way of doing it are just different. You choose your way.
 
+Another good suggestion is about the `cursor: pointer` and the hover effect on the `h2` or the questions. While leaving them as is in a non-JavaScript state causes no harm at all, keeping the questions static by removing the hover effect until the script runs is okay.
+
 ## Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/with-or-without-javascript-fully-responsive-faq-accordion-wahKyH4wdt
