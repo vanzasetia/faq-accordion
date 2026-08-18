@@ -51,16 +51,10 @@
   };
 
   const toggleIcon = (currentIcon, icon) => {
-    const MINUS_ICON_COLOR = "#301534";
-    const PLUS_ICON_COLOR = "#AD28EB";
-    const g = icon.parentElement;
-
     if (currentIcon === "#minus") {
       icon.setAttribute("href", "#plus");
-      g.setAttribute("fill", PLUS_ICON_COLOR);
     } else {
       icon.setAttribute("href", "#minus");
-      g.setAttribute("fill", MINUS_ICON_COLOR);
     }
   };
 

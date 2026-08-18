@@ -152,6 +152,12 @@ h2 {
   font-weight: 600;
 }
 
+svg {
+  height: auto;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
 [hidden] {
   display: none !important;
 }
@@ -193,8 +199,6 @@ h2 {
 
 .faq__title svg {
   width: 2.5em;
-  height: auto;
-  vertical-align: middle;
 }
 
 .faq :is(h1, h2) {
@@ -214,6 +218,14 @@ h2 {
   background: none;
   border: 0;
   cursor: pointer;
+}
+
+.faq button[aria-expanded="true"] {
+  color: var(--purple-950);
+}
+
+.faq button[aria-expanded="false"] {
+  color: var(--purple-500);
 }
 
 .faq__content {
